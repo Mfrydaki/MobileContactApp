@@ -1,4 +1,4 @@
-package gr.aueb.cf.MobileApp.mobilecontacts;
+package gr.aueb.cf.mobilecontacts.model;
 
 public class AbstractEntity {
     private Long id;

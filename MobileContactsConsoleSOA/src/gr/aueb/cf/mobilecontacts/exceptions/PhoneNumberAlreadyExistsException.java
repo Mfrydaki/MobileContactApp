@@ -1,4 +1,4 @@
-package gr.aueb.cf.MobileApp.mobilecontacts.exceptions;
+package gr.aueb.cf.mobilecontacts.exceptions;
 
 public class PhoneNumberAlreadyExistsException extends Exception {
 

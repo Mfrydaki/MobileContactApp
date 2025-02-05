@@ -1,20 +1,18 @@
-package gr.aueb.cf.MobileApp.mobilecontacts.dto;
+package gr.aueb.cf.mobilecontacts.dto;
 
-public class MobileContactReadOnlyDTO extends BaseDTO{
+public class MobileContactInsertDTO {
     private String firstname;
     private String lastname;
     private String phoneNumber;
 
-    public MobileContactReadOnlyDTO(){
+    public MobileContactInsertDTO(){
 
     }
 
-    public MobileContactReadOnlyDTO(Long id,String firstname, String lastname, String phoneNumber, String firstname1) {
+    public MobileContactInsertDTO(String firstname, String lastname, String phoneNumber) {
         this.firstname = firstname;
         this.lastname = lastname;
         this.phoneNumber = phoneNumber;
-        this.firstname = firstname1;
-        setId(id);
     }
 
     public String getFirstname() {
@@ -41,3 +39,5 @@ public class MobileContactReadOnlyDTO extends BaseDTO{
         this.phoneNumber = phoneNumber;
     }
 }
+
+

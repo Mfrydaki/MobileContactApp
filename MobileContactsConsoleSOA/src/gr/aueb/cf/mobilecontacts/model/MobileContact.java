@@ -1,8 +1,8 @@
-package gr.aueb.cf.MobileApp.mobilecontacts;
+package gr.aueb.cf.mobilecontacts.model;
 
 import java.util.Objects;
 
-public class MobileContact  extends AbstractEntity{
+public class MobileContact  extends AbstractEntity {
 
     private String firstname;
     private String lastname;

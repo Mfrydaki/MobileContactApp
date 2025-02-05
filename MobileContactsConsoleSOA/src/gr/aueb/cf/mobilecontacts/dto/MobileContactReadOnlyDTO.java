@@ -1,18 +1,19 @@
-package gr.aueb.cf.MobileApp.mobilecontacts.dto;
+package gr.aueb.cf.mobilecontacts.dto;
 
-public class MobileContactUpdateDTO extends BaseDTO {
+public class MobileContactReadOnlyDTO extends BaseDTO{
     private String firstname;
     private String lastname;
     private String phoneNumber;
 
-    public MobileContactUpdateDTO(){
+    public MobileContactReadOnlyDTO(){
 
     }
 
-    public MobileContactUpdateDTO(Long id, String firstname, String lastname, String phoneNumber) {
+    public MobileContactReadOnlyDTO(Long id,String firstname, String lastname, String phoneNumber, String firstname1) {
         this.firstname = firstname;
         this.lastname = lastname;
         this.phoneNumber = phoneNumber;
+        this.firstname = firstname1;
         setId(id);
     }
 
