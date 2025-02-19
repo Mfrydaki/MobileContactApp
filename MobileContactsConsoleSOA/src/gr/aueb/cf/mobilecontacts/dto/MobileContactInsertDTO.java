@@ -1,11 +1,12 @@
 package gr.aueb.cf.mobilecontacts.dto;
 
+
 public class MobileContactInsertDTO {
     private String firstname;
     private String lastname;
     private String phoneNumber;
 
-    public MobileContactInsertDTO(){
+    public MobileContactInsertDTO() {
 
     }
 
@@ -39,5 +40,3 @@ public class MobileContactInsertDTO {
         this.phoneNumber = phoneNumber;
     }
 }
-
-

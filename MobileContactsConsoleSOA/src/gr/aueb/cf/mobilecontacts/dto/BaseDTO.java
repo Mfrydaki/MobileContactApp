@@ -1,6 +1,7 @@
+
 package gr.aueb.cf.mobilecontacts.dto;
 
-public class BaseDTO {
+public abstract class BaseDTO {
     private Long id;
 
     public Long getId() {
